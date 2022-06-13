@@ -1,0 +1,12 @@
+{
+    "ClassName": "Part",
+    "Properties": {
+        "Anchored": true,
+        "Locked": true,
+        "Size": [
+            512,
+            20,
+            512
+        ]
+    }
+}

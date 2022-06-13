@@ -1,0 +1,55 @@
+{
+    "name": "AuvuFPSSystem",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedFirst": {
+            "$className": "ReplicatedFirst",
+            "Source": {
+                "$path":"src/ReplicatedFirst"
+            }
+        },
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+            "Source": {
+                "$path":"src/ReplicatedStorage"
+            },
+            "Packages": {
+                "$path":"Packages"
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "Source": {
+                "$path":"src/ServerScriptService"
+            }
+        },
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "Source": {
+                "$path":"src/ServerStorage"
+            }
+        },
+        "Workspace": {
+            "$className": "Workspace",
+            "Source": {
+                "$path":"src/Workspace"
+            }
+        },
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "Source": {
+                    "$path":"src/StarterPlayer/StarterPlayerScripts"
+                }
+            },
+            "StarterCharacterScripts": {
+                "$className": "StarterCharacterScripts",
+                "Source": {
+                    "$path":"src/StarterPlayer/StarterCharacterScripts"
+                }
+            }
+        }
+
+    }
+}
